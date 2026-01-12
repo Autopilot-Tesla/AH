@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Ensure SPA fallback on Netlify
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
