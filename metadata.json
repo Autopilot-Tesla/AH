@@ -1,0 +1,7 @@
+{
+  "name": "Discor-AI",
+  "description": "A familiar chat interface powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
